@@ -1,0 +1,124 @@
+body{
+    background: #fcfcfc;
+}
+#cards{
+    max-width: 1500px;
+    display: flex;
+    gap: 15px;
+    transform: translateY(-35px);
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+    margin: auto;
+
+}
+.card1{
+    height: 110px;
+    width: 60px;
+    border-radius: 500px;
+    text-align: center;
+    color: #88b949;
+    text-shadow: 1px 1px #2f2f2f;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    font-size: 30px;
+    opacity: 0;
+    animation: CardShow 1s ease forwards;
+    animation-delay: 0.2s;
+}
+.card2{
+    height: 130px;
+    width: 60px;
+    border-radius: 500px;
+    text-align: center;
+    color: #7cab74;
+    text-shadow: 1px 1px #737373;
+    font-size: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    opacity: 0;
+    animation: CardShow 1s ease forwards;
+    animation-delay: 0.4s;
+}
+.card3{
+    height: 150px;
+    width: 60px;
+    border-radius: 500px;
+    text-align: center;
+    color: #7cab74;
+    text-shadow: 1px 1px #737373;
+    font-size: 35px;
+    border: 1px solid #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    opacity: 0;
+    animation: CardShow 1s ease forwards;
+    animation-delay: 0.6s;
+}
+.card4{
+    height: 130px;
+    width: 60px;
+    border-radius: 500px;
+    text-align: center;
+    color: #7cab74;
+    text-shadow: 1px 1px #737373;
+    font-size: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    opacity: 0;
+    animation: CardShow 1s ease forwards;
+    animation-delay: 0.8s;
+}
+.card5{
+    height: 110px;
+    width: 60px;
+    border-radius: 40px;
+    text-align: center;
+
+    color: #7cab74;
+    text-shadow: 1px 1px #737373;
+    font-size: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    opacity: 0;
+    animation: CardShow 1s ease forwards;
+    animation-delay: 1s;
+}
+
+
+
+@keyframes CardShow {
+
+    from{
+    opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.upDown{
+    transform: rotate(180deg) translateY(-15px);
+
+}
+.down{
+    transform:translateY(15px);
+}
+
+.BeanList{
+    margin:auto;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+.TextWrap{
+
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+
+}
