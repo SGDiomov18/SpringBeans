@@ -190,5 +190,32 @@ body{
 }
 
 
+.heading{
+    height: 100px;
+    width: 300px;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    transform: translateY(320px);
+    opacity: 0;
+    animation: Heading 1.5s ease forwards;
+}
 
+.Greetings{
+    font-size: 30px;
+    font-family: "Back To School";
+
+}
+
+@keyframes Heading {
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(320px);
+        opacity: 0.2;
+    }
+
+}
 
