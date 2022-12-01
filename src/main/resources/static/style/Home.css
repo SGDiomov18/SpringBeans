@@ -1,90 +1,135 @@
 body{
-    background: #fcfcfc;
+    background: #ffffff;
 }
 #cards{
     max-width: 1500px;
     display: flex;
-    gap: 15px;
-    transform: translateY(-35px);
+    gap: 30px;
+    transform: translateY(340px) scale(1.5);
     flex-wrap: wrap;
     justify-content: center;
     font-size: 30px;
     margin: auto;
 
 }
+
+
 .card1{
     height: 110px;
     width: 60px;
-    border-radius: 500px;
+    border-radius: 20px;
     text-align: center;
-    color: #88b949;
-    text-shadow: 1px 1px #2f2f2f;
+    color: #7cab74;
     font-size: 20px;
     border: 1px solid #ffffff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(140, 140, 154, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     font-size: 30px;
     opacity: 0;
     animation: CardShow 1s ease forwards;
-    animation-delay: 0.2s;
+    animation-delay: 1s;
+
 }
+
 .card2{
     height: 130px;
     width: 60px;
-    border-radius: 500px;
+    border-radius: 20px;
     text-align: center;
     color: #7cab74;
-    text-shadow: 1px 1px #737373;
+
     font-size: 30px;
     border: 1px solid #ffffff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
+    box-shadow: rgba(140, 140, 154, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     opacity: 0;
     animation: CardShow 1s ease forwards;
-    animation-delay: 0.4s;
+    animation-delay: 1.2s;
 }
 .card3{
     height: 150px;
     width: 60px;
-    border-radius: 500px;
+    border-radius: 20px;
     text-align: center;
     color: #7cab74;
-    text-shadow: 1px 1px #737373;
+
     font-size: 35px;
     border: 1px solid #ffffff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(140, 140, 154, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     opacity: 0;
     animation: CardShow 1s ease forwards;
-    animation-delay: 0.6s;
+    animation-delay: 1.4s;
 }
 .card4{
     height: 130px;
     width: 60px;
-    border-radius: 500px;
+    border-radius: 20px;
     text-align: center;
     color: #7cab74;
-    text-shadow: 1px 1px #737373;
+
     font-size: 30px;
     border: 1px solid #ffffff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
+    box-shadow: rgba(140, 140, 154, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     opacity: 0;
     animation: CardShow 1s ease forwards;
-    animation-delay: 0.8s;
+    animation-delay: 1.6s;
 }
 .card5{
     height: 110px;
     width: 60px;
-    border-radius: 40px;
+    border-radius: 20px;
     text-align: center;
-
     color: #7cab74;
-    text-shadow: 1px 1px #737373;
+
     font-size: 30px;
     border: 1px solid #ffffff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(140, 140, 154, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     opacity: 0;
     animation: CardShow 1s ease forwards;
-    animation-delay: 1s;
+    animation-delay: 1.8s;
+}
+
+.card5{
+    height: 110px;
+    width: 60px;
+    border-radius: 20px;
+    text-align: center;
+    color: #7cab74;
+
+    font-size: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: rgba(140, 140, 154, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    opacity: 0;
+    animation: CardShow 1s ease forwards;
+    animation-delay: 1.8s;
+}
+
+.card5{
+    height: 110px;
+    width: 60px;
+    border-radius: 20px;
+    text-align: center;
+    color: #7cab74;
+
+    font-size: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: rgba(140, 140, 154, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    opacity: 0;
+    animation: CardShow 1s ease forwards;
+    animation-delay: 1.8s;
+}
+
+.card5{
+    height: 110px;
+    width: 60px;
+    border-radius: 20px;
+    text-align: center;
+    color: #7cab74;
+
+    font-size: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: rgba(140, 140, 154, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    opacity: 0;
+    animation: CardShow 1s ease forwards;
+    animation-delay: 1.8s;
 }
 
 
@@ -93,7 +138,7 @@ body{
 
     from{
     opacity: 0;
-        transform: translateY(-100px);
+        transform: translateY(-50px);
     }
     to{
         opacity: 1;
@@ -122,3 +167,28 @@ body{
     font-size: 20px;
 
 }
+.topHr{
+    position: relative;
+    opacity: 0.3;
+    width: 1px;
+    transform: translateY(300px);
+    animation: HrAnimation 1.2s ease forwards;
+    animation-delay: 0.4s;
+}
+
+
+@keyframes HrAnimation {
+
+    from{
+        opacity: 0.7;
+        width: 1px;
+    }
+    to{
+        opacity: 0.2;
+        width: 750px;
+    }
+}
+
+
+
+
